@@ -1,0 +1,38 @@
+body{
+  padding: 10px 0;
+}
+
+label.error{
+  font-size: 13px;
+  font-style: italic;
+  color: red;
+}
+
+.currency{
+  text-align: center;
+}
+.currency> *{
+  margin-top: 15px;
+}
+
+.item{
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: #FCF3C0;
+  border-radius: 15px;
+}
+.item:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.item-container{
+  padding: 0 15px;
+  margin: 15px 0;
+}
+.price{
+  font-weight: bold;
+}
+.choose{
+  float: right;
+}

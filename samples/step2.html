@@ -1,0 +1,46 @@
+<div class="container">
+
+  <div class="col-sm-3 currency">
+    <span class="col-sm-12">Выберите валюту:</span>
+    <div class="col-sm-12">
+    <select name="currency" id="currency">
+      <option value="USD" selected="selected">USD</option>
+      <option value="EUR">EUR</option>
+      <option value="UAH">UAH</option>
+    </select>
+    </div>
+    <button class="btn btn-primary" id="sendOrder" disabled="disabled">Отправить заявку</button>
+      <p class="hint">Выберите, пожалуйста, предложение, укажите валюту и отправьте заявку.</p>
+  </div>
+
+  <div class="col-sm-3 item-container">
+    <div class="item">
+      <h3 class="title">Первое предложение</h3>
+      <p class="about">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vestibulum ante ipsum primis in faucibus orci.
+      </p>
+      <span class="price">100</span>
+      <button ng-click="chooseItem(item.title)" class="btn btn-success choose" change-class>Выбрать</button>
+    </div>
+  </div>
+
+  <div class="col-sm-3 item-container">
+    <div class="item">
+      <h3 class="title">Второе предложение</h3>
+      <p class="about">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vestibulum ante ipsum primis in faucibus orci.
+      </p>
+      <span class="price">200</span>
+      <button ng-click="chooseItem(item.title)" class="btn btn-success choose" change-class>Выбрать</button>
+    </div>
+  </div>
+
+  <div class="col-sm-3 item-container">
+    <div class="item">
+      <h3 class="title">Третье предложение</h3>
+      <p class="about">Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vestibulum ante ipsum primis in faucibus orci.
+      </p>
+      <span class="price">300</span>
+      <button ng-click="chooseItem(item.title)" class="btn btn-success choose" change-class>Выбрать</button>
+    </div>
+  </div>
+
+</div>
